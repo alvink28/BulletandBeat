@@ -1559,7 +1559,6 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1406804570}
-  - component: {fileID: 1406804569}
   - component: {fileID: 1406804568}
   m_Layer: 0
   m_Name: SongController
@@ -1664,19 +1663,6 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
---- !u!114 &1406804569
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1406804567}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 94ca262823632c14196b398928339a70, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  audioSource: {fileID: 1406804568}
 --- !u!4 &1406804570
 Transform:
   m_ObjectHideFlags: 0
