@@ -18,14 +18,14 @@ public class SongManager : MonoBehaviour
 
     public string fileLocation;
     public float noteTime;
-    public float noteSpawnY;
-    public float noteTapY;
+    public float noteSpawnX;
+    public float noteTapX;
 
-    public float noteDespawnY
+    public float noteDespawnX
     {
         get
         {
-            return noteTapY - (noteSpawnY - noteTapY);
+            return noteTapX - (noteSpawnX - noteTapX);
         }
     }
 
