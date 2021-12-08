@@ -55,11 +55,9 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-     <Compile Include="Assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
-     <Compile Include="Assets\Scripts\BeatMap.cs" />
+     <Compile Include="Assets\3rd party assets\Nokobot\Modern Guns - Handgun\_Demo Assets\SimpleShoot.cs" />
      <Compile Include="Assets\Scripts\Bullet.cs" />
      <Compile Include="Assets\Scripts\CameraControl.cs" />
-     <Compile Include="Assets\Scripts\External\DSPLib\DSPLib.cs" />
      <Compile Include="Assets\Scripts\GamePlay.cs" />
      <Compile Include="Assets\Scripts\Lane.cs" />
      <Compile Include="Assets\Scripts\MainMenu.cs" />
@@ -68,31 +66,32 @@
      <Compile Include="Assets\Scripts\Score.cs" />
      <Compile Include="Assets\Scripts\ScoreManager.cs" />
      <Compile Include="Assets\Scripts\SongManager.cs" />
-     <Compile Include="Assets\Scripts\SpectralFluxAnalyzer.cs" />
+     <Compile Include="Assets\Scripts\Trash\BeatMap.cs" />
+     <Compile Include="Assets\Scripts\Trash\External\DSPLib\DSPLib.cs" />
+     <Compile Include="Assets\Scripts\Trash\SpectralFluxAnalyzer.cs" />
      <Compile Include="Assets\Scripts\target.cs" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
-     <None Include="Assets\Nokobot\Modern Guns - Handgun\README.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
-     <None Include="Assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
-     <None Include="Assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
-     <None Include="Assets\Easy DG Assets 1 - Wood + Stone\README.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
-     <None Include="Assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMPro.cginc" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_Bitmap.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMPro_Mobile.cginc" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_SDF SSD.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_SDF-Surface-Mobile.shader" />
+     <None Include="Assets\3rd party assets\Nokobot\Modern Guns - Handgun\README.txt" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_SDF-Surface.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Sprites\EmojiOne Attribution.txt" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_Bitmap-Custom-Atlas.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_SDF.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_SDF-Mobile SSD.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Resources\LineBreaking Leading Characters.txt" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMPro_Properties.cginc" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMPro_Surface.cginc" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Resources\LineBreaking Following Characters.txt" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_SDF Overlay.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_Bitmap-Mobile.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Fonts\LiberationSans - OFL.txt" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_SDF-Mobile.shader" />
+     <None Include="Assets\3rd party assets\TextMesh Pro\Shaders\TMP_Sprite.shader" />
  <Reference Include="UnityEngine">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Managed/UnityEngine/UnityEngine.dll</HintPath>
  </Reference>
@@ -277,7 +276,7 @@
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/Managed/UnityEditor.dll</HintPath>
  </Reference>
  <Reference Include="Melanchall.DryWetMidi">
- <HintPath>C:/Users/freem/Desktop/BulletandBeat/BulletAndBeat1/Assets/Melanchall.DryWetMidi.dll</HintPath>
+ <HintPath>C:/Users/freem/Desktop/BulletandBeat/BulletAndBeat1/Assets/3rd party assets/Melanchall.DryWetMidi.dll</HintPath>
  </Reference>
  <Reference Include="netstandard">
  <HintPath>C:/Program Files/Unity/Hub/Editor/2019.4.13f1/Editor/Data/NetStandard/ref/2.0.0/netstandard.dll</HintPath>

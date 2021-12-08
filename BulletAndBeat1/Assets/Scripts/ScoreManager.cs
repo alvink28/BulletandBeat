@@ -31,6 +31,6 @@ public class ScoreManager : MonoBehaviour
     // Update is called once per frame
     private void Update()
     {
-    scoreText.text = comboScore.ToString();
+        scoreText.text = "Combo: " + comboScore.ToString();
     }
 }

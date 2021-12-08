@@ -1,6 +1,9 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using UnityEngine;
+using UnityEngine.SceneManagement;
+using static System.Net.Mime.MediaTypeNames;
 
 public class GamePlay : MonoBehaviour
 {
@@ -8,6 +11,8 @@ public class GamePlay : MonoBehaviour
     public GameObject bulletPrefab;
     public AudioSource audioSource;
     public CameraControl cameraShake;
+
+    public float timeLeft = 102f; //102
 
     // Start is called before the first frame update
     void Start()
@@ -28,5 +33,17 @@ public class GamePlay : MonoBehaviour
 
             StartCoroutine(cameraShake.Shake(.15f, .4f));
         }
+
+        timeLeft -= Time.deltaTime;
+        if (timeLeft <= 0)
+        {
+            GameOver();
+        }
+    }
+
+    public void GameOver()
+    {
+        UnityEngine.Debug.Log("timesup!!");
+        SceneManager.LoadScene("GameOver");
     }
 }
