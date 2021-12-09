@@ -5,7 +5,7 @@ using UnityEngine;
 public class Note : MonoBehaviour
 {
     double timeInstantiated;
-    public float assignedTime;
+    public float assignedTime; //Tap time
 
     void Start()
     {
@@ -16,7 +16,7 @@ public class Note : MonoBehaviour
     void Update()
     {
         double timeSinceInstantiated = SongManager.GetAudioSourceTime() - timeInstantiated;
-        float t = (float)(timeSinceInstantiated / (SongManager.Instance.noteTime * 2));
+        float t = (float)(timeSinceInstantiated / (SongManager.Instance.noteTime * 2)); //
 
         if(t > 1)
         {
@@ -24,6 +24,7 @@ public class Note : MonoBehaviour
         }
         else
         {
+            //Position the notes and spawn targets
             transform.localPosition = Vector3.Lerp(Vector3.forward * SongManager.Instance.noteSpawnX, Vector3.forward * SongManager.Instance.noteDespawnX, t);
             GetComponent<MeshRenderer>().enabled = true;
         }
