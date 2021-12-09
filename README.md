@@ -15,4 +15,6 @@ The are two modes:
 
 <img src="https://github.com/alvink28/BulletandBeat/blob/master/Screenshot%20(423).png" alt="2d" width="500"/>
 
-Bullet & Beats is created with a Windows 10 Machine, using Unity 2019.4.13f1
+link to video: https://youtu.be/oUPFJ8od4ws
+
+*Bullet & Beats is created with a Windows 10 Machine, using Unity 2019.4.13f1. MIDI file is created and edited in LMMS. DryWetMIDI was used to analyse MIDI file in Unity.*
