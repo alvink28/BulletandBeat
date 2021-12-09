@@ -21,12 +21,11 @@ public class Note : MonoBehaviour
         if(t > 1)
         {
             Destroy(gameObject);
-
         }
         else
         {
             transform.localPosition = Vector3.Lerp(Vector3.forward * SongManager.Instance.noteSpawnX, Vector3.forward * SongManager.Instance.noteDespawnX, t);
-
+            GetComponent<MeshRenderer>().enabled = true;
         }
     }
 }

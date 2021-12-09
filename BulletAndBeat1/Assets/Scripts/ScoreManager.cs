@@ -9,6 +9,7 @@ public class ScoreManager : MonoBehaviour
     //public AudioSource missSFX;
     public TMPro.TextMeshPro scoreText;
     static int comboScore;
+    public static int MaxCombo;
 
     void Start()
     {
@@ -28,9 +29,18 @@ public class ScoreManager : MonoBehaviour
         //Instance.missSFX.Play();
     }
 
+    public static void Maxcombo()
+    {
+        MaxCombo = 0;
+    }
+
     // Update is called once per frame
-    private void Update()
+    public void Update()
     {
         scoreText.text = "Combo: " + comboScore.ToString();
+        if (comboScore > MaxCombo)
+        {
+            MaxCombo = comboScore;
+        }
     }
 }

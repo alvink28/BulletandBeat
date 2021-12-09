@@ -18,8 +18,12 @@ public class target : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        Debug.Log(other.gameObject.name);
-        Destroy(gameObject);
-        Score.scoreValue += 50;
+        if (other.tag == "Bullet")
+        {
+            Destroy(gameObject);
+            //Debug.Log(other.gameObject.name);
+            Destroy(other.gameObject);
+            Score.scoreValue += 50;
+        }
     }
 }

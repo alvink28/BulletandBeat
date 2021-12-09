@@ -62,6 +62,7 @@ public class Lane : MonoBehaviour
                     print($"Hit on {inputIndex} note");
                     Destroy(notes[inputIndex].gameObject);
                     inputIndex++;
+                    Score.scoreValue += 50;
                 }
                 else
                 {
