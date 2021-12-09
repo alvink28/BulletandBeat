@@ -1,7 +1,7 @@
 ## BulletandBeat
 <img src="https://github.com/alvink28/BulletandBeat/blob/master/Header.jpg" alt="2d" width="100%"/>
 
-Bullet and Beat is a single player music rhythm game for PC. The game uses a FPS mechanics, player shoots at a target instead of tapping a object like most rhythm games do. This game is for FPS gamers who wants to practice their aiming, or for anyone who enjoy rhythm games and like music.
+Bullet and Beat is a single player music rhythm game for PC. The game uses a FPS mechanics, player shoots at a target instead of tapping a object like most rhythm games do. This game is for FPS gamers who wants to practice their aiming, or for anyone who enjoy rhythm games and like music. The game was set in a low poly designed jungle with soft lighting, providing a relaxed enivironment for the player.
 
 **How to play:** Simply run the EXE file in Build folder.
 
